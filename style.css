@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+  }
+  
+  h1 {
+    font-family: Norse-Bold, sans-serif;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vw;
+  }
+
+  .left{
+    background-image: url('./images/priscilla-du-preez-6gWMviz-vSo-unsplash.jpg');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  } 
+  
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+
+  .first{
+    height: 33vw;
+  }
+
+  .second{
+    height: 33vw;
+  }
+
+  .third{
+    height: 33vw;
+  }
