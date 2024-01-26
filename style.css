@@ -25,22 +25,137 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
   } 
   
   .right{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 65vw;
+    background-color: rgba(233, 225, 225, 0.393);
   }
 
   .first{
-    height: 33vw;
+    height: 11vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
   }
 
   .second{
-    height: 33vw;
+    height: 20vw;
+    background-color: white;
+    align-items: center;
+    box-shadow: 3px 5px #E5E7EB;
   }
 
   .third{
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+
+
+  .form-main-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+
+  }
+
+  .form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  input{
+    width: 200px;
+    border:1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+  }
+
+
+  input:focus{
+    border: 2px solid blue;
+  }
+
+  input:invalid{
+    border: 2px solid red;
+  }
+
+
+  label{
+    font-size: 25px;
+    color: rgb(93, 93, 185)
+  }
+
+  .error
+  {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+  }
+
+  .btn-green
+  {
+    background-color: #596d48;
+    color: white;
+    border: 1px solid 596d48;
+    border-radius: 10px;
+    height: 50px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 3px 5px #E5E7EB;
+  }
+
+
+  .hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+  a{
+    color: #596d48;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .p-footer{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .forImage{
     height: 33vw;
+    display: flex;
+    align-items: flex-end;
+
+  }
+
+
+  .forFooter{
+  height: 50vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+  }
+
+
+  .semi-transparent
+  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:black; opacity: 0.5;
   }
